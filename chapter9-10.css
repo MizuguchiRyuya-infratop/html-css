@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.card {
+	width: 300px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #f5f5f5;
+	position: relative;
+}
+.card:nth-child(2), .card:nth-child(3) {
+	margin-left: 30px;
+}
+
+.step-num {
+	position: absolute;
+	background-color: orange;
+	color: white;
+	top: 0;
+	left: 0;
+	padding: 5px;
+}
+
+.step-img {
+	width: 280px;
+}
+
+@media screen and (max-width: 768px) {
+	.card {
+		width: auto;
+		float: none;
+    	padding: 30px;
+	}
+	.card:nth-child(2), .card:nth-child(3) {
+		margin-left: 0;
+	}
+
+	.card h2 {
+		font-size: 40px;
+	}
+	.card p {
+		font-size: 30px;
+	}
+
+	.step-img {
+		width: 100%;
+	}
+
+	.step-num {
+		font-size: 50px;
+	}
+}
+

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.pt30 {
+	padding-top: 30px;
+}
+.pt50 {
+	padding-top: 50px;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+.pb50 {
+	padding-bottom: 50px;
+}
+
+section {
+	height: 400px;
+	background-image: url(chapter7-img/mv.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+section h2 {
+	padding: 20px 0 0 20px;
+}
+
+main {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.content {
+	border-bottom: 1px solid grey;
+}
