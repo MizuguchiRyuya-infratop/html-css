@@ -48,6 +48,9 @@ main {
 		width: auto;
 		float: none;
 	}
+	.card:nth-child(1), .card:nth-child(2) {
+		margin-bottom: 20px;
+	}
 	.card:nth-child(2), .card:nth-child(3) {
 		margin-left: 0;
 	}
